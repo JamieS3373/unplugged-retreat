@@ -165,7 +165,6 @@ textarea {
     padding: 15px 0;
   }
 
-
   header .content-wrapper {
     display: flex;
     justify-content: center;
@@ -173,6 +172,14 @@ textarea {
     flex-flow: row wrap;
     margin: 0;
   }
+
+  header figure {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
 
   .header-divider {
     background: #3a3a3a;
@@ -202,6 +209,14 @@ textarea {
 
   header nav ul li {
     font-size: 1.125em;
+  }
+
+  img { 
+	width: 100%;
+  }
+ 
+  figure {
+        margin: 0;
   }
 
   footer {
@@ -242,12 +257,16 @@ textarea {
   /*--Hero Area*/
 
   .hero-area {
+    background: url('../img/jake-melara-30679-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 500px;
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
   }
 
-  .her0-area h1 {
+  .hero-area h1 {
     font-size: 2.25em;
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
     font-weight: 500;
@@ -297,6 +316,7 @@ textarea {
   /* Features */
 
   .features {
+    background: url('../img/rawpixel-800820-unsplash1.jpg');
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
